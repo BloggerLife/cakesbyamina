@@ -25,7 +25,7 @@ export default function Home() {
           </p>
           <p>
             Contact Cakes by Amina today to add a touch of sweetness to your
-            life's celebrations.
+            life celebrations.
           </p>
         </div>
       </section>
