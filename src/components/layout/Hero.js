@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section className="hero md:mt-4">
+    <section className="hero md:mt-4 pt-5">
       <div className="py-8 md:py-12">
         <h1 className="text-4xl font-semibold">
           Everything
@@ -26,13 +26,15 @@ export default function Hero() {
               <Whatsapp />
             </button>
           </Link>
-          <button className="flex items-center border-0 gap-2 py-2 text-gray-600 font-semibold">
-            Learn more
-            <Right />
-          </button>
+          <Link href={"/#about"}>
+            <button className="flex items-center border-0 gap-2 py-2 text-gray-600 font-semibold">
+              Learn more
+              <Right />
+            </button>
+          </Link>
         </div>
       </div>
-      <div className="relative hidden md:block">
+      <div className="relative  md:block">
         <Image
           src={"/cake.png"}
           layout={"fill"}

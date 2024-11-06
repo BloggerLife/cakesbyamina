@@ -47,9 +47,10 @@ export default function Header() {
   if (userName && userName.includes(" ")) {
     userName = userName.split(" ")[0];
   }
+  console.log(status);
   return (
     <header>
-      <div className="flex items-center md:hidden justify-between">
+      <div className=" flex items-center md:hidden justify-between">
         <Link className="text-primary font-semibold text-2xl" href={"/"}>
           CAKES BY AMINA
         </Link>
