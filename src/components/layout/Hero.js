@@ -26,9 +26,9 @@ export default function Hero() {
               <Whatsapp />
             </button>
           </Link>
-          <Link href={"/#about"}>
+          <Link href={"/menu"}>
             <button className="flex items-center border-0 gap-2 py-2 text-gray-600 font-semibold">
-              Learn more
+              View Menu
               <Right />
             </button>
           </Link>
