@@ -26,7 +26,7 @@ export default function AddressInputs({
       <input
         disabled={disabled}
         type="text"
-        placeholder="City"
+        placeholder="Town"
         value={city || ""}
         onChange={(ev) => setAddressProp("city", ev.target.value)}
       />
@@ -34,7 +34,7 @@ export default function AddressInputs({
       <input
         disabled={disabled}
         type="text"
-        placeholder="Country"
+        placeholder="City"
         value={country || ""}
         onChange={(ev) => setAddressProp("country", ev.target.value)}
       />
