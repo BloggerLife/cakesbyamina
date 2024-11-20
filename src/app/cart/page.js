@@ -110,7 +110,7 @@ export default function CartPage() {
             <div className="font-semibold pl-2 text-right">
               ${subtotal}
               <br />
-              Free fow Now
+              Free for Now
               <br />${subtotal + 0}
             </div>
           </div>
@@ -122,7 +122,7 @@ export default function CartPage() {
               addressProps={address}
               setAddressProp={handleAddressChange}
             />
-            <button type="submit">Pay ${subtotal + 5}</button>
+            <button type="submit">Order For ${subtotal + 5}</button>
           </form>
         </div>
       </div>
