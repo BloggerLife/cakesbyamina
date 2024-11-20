@@ -110,7 +110,7 @@ export default function CartPage() {
             <div className="font-semibold pl-2 text-right">
               ${subtotal}
               <br />
-              Free for Now
+              Free
               <br />${subtotal + 0}
             </div>
           </div>
