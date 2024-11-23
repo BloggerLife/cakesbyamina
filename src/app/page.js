@@ -2,6 +2,8 @@ import Header from "@/components/layout/Header";
 import Hero from "@/components/layout/Hero";
 import HomeMenu from "@/components/layout/HomeMenu";
 import SectionHeaders from "@/components/layout/SectionHeaders";
+import Link from "next/link";
+import Right from "@/components/icons/Right";
 
 export default function Home() {
   return (
@@ -9,6 +11,13 @@ export default function Home() {
       <Hero />
       <HomeMenu />
       <section className="text-center my-16" id="about">
+        <div className="flex gap-4 text-sm py-4">
+          <Link href={"/menu"}>
+            <button className="flex justify-center bg-primary uppercase items-center gap-2 text-white px-4 py-2 rounded-full">
+              View More Cakes <Right />
+            </button>
+          </Link>
+        </div>
         <SectionHeaders subHeader={"Our story"} mainHeader={"About us"} />
         <div className="text-gray-500 max-w-md mx-auto mt-4 flex flex-col gap-4">
           <p>
