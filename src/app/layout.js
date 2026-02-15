@@ -37,7 +37,7 @@ export default function RootLayout({ children }) {
           <AppProvider>
             <Toaster />
             <span className=" fixed top-24 right-2 p-2 ">
-              <Link href="https://wa.me/263773799776">
+              <Link href="https://wa.me/263718352592">
                 <Whatsapp />
               </Link>
             </span>
